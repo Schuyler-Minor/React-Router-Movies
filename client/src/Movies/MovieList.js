@@ -14,7 +14,7 @@ export default function MovieList(props) {
 
 function MovieDetails(props) {
   
-  const { url } = useRouteMatch()
+  const { url } = useRouteMatch();
 
   return (
     <div className="movie-card">
